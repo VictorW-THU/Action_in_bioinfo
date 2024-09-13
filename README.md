@@ -15,7 +15,7 @@ Wish me myself to enjoy a interesting and harvesting semester.
 **NOTE1**  There are two types of bioinformatics study patterns (*hypothesis driven*: 0->1->2->3 *v.s.* data driven: 1->2->3->4)
 
 **NOTE2**  The differences between models and algorithms:  
-    (1). ***MODEL*** is the scaffold where variables are correlated with each other. In a certain model, we use *parameters* to depict the relationships among variables. For different kinds of questions, 'proper' models should be usesd, from the very basic linear models to deep learning. 
+    (1). ***MODEL*** is the scaffold where variables are correlated with each other. In a certain model, we use *parameters* to depict the relationships among variables. For different kinds of questions, 'proper' models should be usesd, from the very basic linear models to deep learning.   
     (2). ***Algorithm*** is the method we use to solve a specific programming problem, for instance, to get the parameters of a certain models. Efficient algorithms may help greatly reduce the running time or storage space consumed by a program.
 
 
