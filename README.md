@@ -12,7 +12,7 @@ Wish me myself to enjoy a interesting and harvesting semester.
   3. Utilize extant (or construct novel) **probabilistic models or computational algorithms** for better excavation of latent biological paradigms and conclusions
   4. Cast a **question** based on data analysis and finally explain its biological significance
 
-**NOTE1**  There are two types of bioinformatics study patterns (*hypothesis driven*: 0->1->2->3 *v.s.* data driven: 1->2->3->4)
+**NOTE1**  There are two types of bioinformatics study patterns (*hypothesis driven*: 0->1->2->3 *v.s.* *data driven*: 1->2->3->4)
 
 **NOTE2**  The differences between models and algorithms:  
     (1). ***MODEL*** is the scaffold where variables are correlated with each other. In a certain model, we use *parameters* to depict the relationships among variables. For different kinds of questions, 'proper' models should be usesd, from the very basic linear models to deep learning.   
