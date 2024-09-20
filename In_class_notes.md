@@ -23,14 +23,18 @@
 
 # Week 2
 
-## 1-D study: gene prediction for DNA
+## Bioinfomatics examples
+### 1-D study: gene prediction for DNA
   Better to say *a gene* is *a piece of information* rather than a segment of DNA (think about protein virus).
   To predict a gene given a segment of DNA? **HMM** and **Viterbi algorithm** to detect the hidden state of DNA (exon or intron)
-## 2-D study: structure prediction for RNA
+### 2-D study: structure prediction for RNA
   To recognize a segemnt of RNA: biophysics(spatial structure) *v.s.* linguistics(AUCG sequence)
   Model for RNA 2nd structure prediction: **SCFG (stochastic context free grammar)**
-## 3-D study: structure prediction for Protein
+### 3-D study: structure prediction for Protein
   To recognize a 3rd structure: biophysics(energy landscape simulation) *v.s.* linguistics(transformer)
-## H-D study: Prediction Medicine for Human
+### H-D study: Prediction Medicine for Human
   Question: genetic variation diagnosis & personal health
   
+## Linux basic knowledge
+  One of **Operating System** (parallel with Mac, Windows *etc.*)
+  User -- **Shell(*e.g.* bash)** -- Kernel -- 
