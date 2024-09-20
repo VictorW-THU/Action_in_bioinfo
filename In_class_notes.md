@@ -18,3 +18,19 @@
 1. Aside from '*linux*', Use '*python*' to complete every program so as to command common python-based bioinformatics analysis pipelines.
 2. Follow the pipelines on the tutorial firstly, and run those analyses with other overt data, to get more familiar with those standard pipelines.
 3. Pay more attention on how those analysis methods are constructed and realized rather than simply how to run extant pipelines, and think whether I can contribute to the opimization of extant models or algorithms. : )
+
+
+
+# Week 2
+
+## 1-D study: gene prediction for DNA
+  Better to say *a gene* is *a piece of information* rather than a segment of DNA (think about protein virus).
+  To predict a gene given a segment of DNA? **HMM** and **Viterbi algorithm** to detect the hidden state of DNA (exon or intron)
+## 2-D study: structure prediction for RNA
+  To recognize a segemnt of RNA: biophysics(spatial structure) *v.s.* linguistics(AUCG sequence)
+  Model for RNA 2nd structure prediction: **SCFG (stochastic context free grammar)**
+## 3-D study: structure prediction for Protein
+  To recognize a 3rd structure: biophysics(energy landscape simulation) *v.s.* linguistics(transformer)
+## H-D study: Prediction Medicine for Human
+  Question: genetic variation diagnosis & personal health
+  
