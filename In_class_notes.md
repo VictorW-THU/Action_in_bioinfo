@@ -38,3 +38,33 @@
 ## Linux basic knowledge
   One of **Operating System** (parallel with Mac, Windows *etc.*)
   User -- **Shell(*e.g.* bash)** -- Kernel -- 
+
+
+
+# Week 3
+
+## sequence alignment
+general approach to pairwise alignment:
+1. choose 2 sequences.
+2. select an algorithm that generates a score.
+3. allow gaps(insertion, deletions)
+4. score reflects degree of similarity.
+5. alignments can be global or local.
+6. estimate probability that the alignment occurred by chance
+
+### score matrix
+  objective: to derive a scoring function that best reflects the evolutionary relationship and biological reality
+### N-W algorithm (dynamic programming, global)
+  *note*: some highly short moitifs may be ignored because N-W is based on global alignment.
+  Max(s) = (#matches)*m - (#mismatches)*s - (#gaps)*d
+  score matrix: the max score at each cell is the sum of the original score in the cell and the highest score in the previous column or row.
+                after finishing, trace back along the route with all highest scores.
+### S-W algorithm (local)
+  score matrix: the score in each cell is the max possible score for an alignment of any length ending at the position
+                after finishing, find the highest scoring cell, then trace the way back to the beginning
+
+## Blast (Basic Local Alignment Search Tool)
+### heuristic methods: 
+  intuition: two biological sequences are likeliy to be similar if the have a sufficient number of short local matches (hits or tuples) that are in the same order.
+  method: pre-compute a **hash-table**, which lists a positions every possible tuple.
+ 
