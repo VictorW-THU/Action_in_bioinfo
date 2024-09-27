@@ -70,7 +70,3 @@ general approach to pairwise alignment:
 ### Blast statistics:
   p-value: prob that an event occurs by chance
   e-value: correction of the p-value for multiple testing
-
-## conversation analysis (one application of sequence alignment)
-
- 
