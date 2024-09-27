@@ -52,7 +52,7 @@ general approach to pairwise alignment:
 5. alignments can be global or local.
 6. estimate probability that the alignment occurred by chance
 
-### score matrix
+### score matrix 
   objective: to derive a scoring function that best reflects the evolutionary relationship and biological reality
 ### N-W algorithm (dynamic programming, global)
   *note*: some highly short moitifs may be ignored because N-W is based on global alignment.
@@ -63,8 +63,14 @@ general approach to pairwise alignment:
   score matrix: the score in each cell is the max possible score for an alignment of any length ending at the position
                 after finishing, find the highest scoring cell, then trace the way back to the beginning
 
-## Blast (Basic Local Alignment Search Tool)
+## Blast (Basic Local Alignment Search Tool, *pairwise alignment*)
 ### heuristic methods: 
   intuition: two biological sequences are likeliy to be similar if the have a sufficient number of short local matches (hits or tuples) that are in the same order.
   method: pre-compute a **hash-table**, which lists a positions every possible tuple.
+### Blast statistics:
+  p-value: prob that an event occurs by chance
+  e-value: correction of the p-value for multiple testing
+
+## conversation analysis (one application of sequence alignment)
+
  
