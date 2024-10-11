@@ -70,3 +70,16 @@ general approach to pairwise alignment:
 ### Blast statistics:
   p-value: prob that an event occurs by chance
   e-value: correction of the p-value for multiple testing
+
+
+
+
+# Week 5
+
+## 1st generation sequencing (Sanger sequencing)
+  1. Add trace amount of *ddNTPs* into the solution of *dNTPs*;
+  2. Utilize this mixed solution to enlonger the DNA sequence (Those attached by *ddNTPs* will be terminated); 
+  3. Run a GEL to recognize the ATCG sequence of the DNA
+## NGS (next generation sequencing)
+  1. add primers to DNA fragments and attach them to a forecell
+  2. s
